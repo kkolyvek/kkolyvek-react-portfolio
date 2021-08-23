@@ -9,24 +9,28 @@ import Contact from './components/Contact/Contact.js';
 
 function App() {
   return (
-    <div>
-      <Navigation />
-      <div className="custom-main">
-        <Router>
-          <Switch>
-            <Route exact path="/">
-              <About />
-            </Route>
-            <Route path="/work">
-              <Work />
-            </Route>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-          </Switch>
-        </Router>
+    <div className="site-wrapper">
+      <div>
+        <Navigation />
+        <div className="custom-main">
+          <Router>
+            <Switch>
+              <Route exact path="/">
+                <About />
+              </Route>
+              <Route path="/work">
+                <Work />
+              </Route>
+              <Route path="/contact">
+                <Contact />
+              </Route>
+            </Switch>
+          </Router>
+        </div>
       </div>
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

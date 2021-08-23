@@ -108,7 +108,7 @@ function Work() {
         <Container fluid id="work" className="custom-work">
             <Container>
                 <Row>
-                    <Col lg={3} className="p-5">
+                    <Col lg={3} className="work-title p-5">
                         <h3>Work</h3>
                     </Col>
                     <Col lg={9} className="work-container">

@@ -24,6 +24,7 @@
 }
 
 .custom-navlink-text:hover {
+  text-decoration: none;
   transform: scale(1.2);
   transition: transform 100ms;
 }

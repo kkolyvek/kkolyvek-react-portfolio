@@ -13,7 +13,7 @@ function About() {
     return (
         <Container fluid className="custom-container">
             <Container>
-                <Row>
+                <Row style={{borderBottom: '2px solid #282828'}}>
                     <Col sm={12} lg={6}>
                         <div className="about-container">
                             <h1 className="about-title">Koppi Kolyvek</h1>

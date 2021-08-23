@@ -1,6 +1,9 @@
 /* ============================= */
 /* =        WORK STYLING       = */
 /* ============================= */
+.work-title {
+  display: flex;
+}
 
 .work-container {
   padding: 3rem;
@@ -64,6 +67,9 @@
 }
 
 @media screen and (max-width: 762px) {
+  .work-title {
+    justify-content: center;
+  }
   .custom-card-body {
     flex-direction: column;
   }

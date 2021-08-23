@@ -24,3 +24,11 @@
   width: 100%;
   height: auto;
 }
+
+/* RESPONSIVENESS */
+/* ============== */
+@media screen and (max-width: 991px) {
+  .portrait {
+    width: 50%;
+  }
+}

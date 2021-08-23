@@ -45,3 +45,9 @@
     padding-left: 4em !important;
   }
 }
+
+@media screen and (max-width: 300x) {
+  .contact-link-container {
+    padding-left: 0 !important;
+  }
+}

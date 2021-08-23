@@ -18,12 +18,11 @@ export default function Contact() {
     return (
         <Container fluid className="custom-container">
             <Container>
-                <Row style={{display: 'flex'}}>
-                    <Col sm={12} lg={6} className="p-5">
-                        <h3>Contact</h3>
+                <Row style={{display: 'flex'}} className="pt-5">
+                    <Col sm={12} lg={8} className="p-5">
                         <h5>Want to chat? Feel free to reach out through any of these mediums:</h5>
                     </Col>
-                    <Col sm={12} lg={6} className="contact-link-container">
+                    <Col sm={12} lg={4} className="contact-link-container">
                         <a
                         className="contact-link"
                         href="mailto:kk674@cornell.edu"
