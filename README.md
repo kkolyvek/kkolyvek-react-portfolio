@@ -10,4 +10,4 @@ The 'work' section features cards with project information that will lead to the
 
 <br>
 
-> ![Screenshot of Webpage](./gh-assets/readme-screenshot.png)
+> ![Screenshot of Webpage](./assets/readme-screenshot.png)
