@@ -5,6 +5,7 @@ import Navigation from './components/Navigation/Navigation.js';
 import Footer from './components/Footer/Footer.js';
 import About from './components/About/About.js';
 import Work from './components/Work/Work.js';
+import Contact from './components/Contact/Contact.js';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
             </Route>
             <Route path="/work">
               <Work />
+            </Route>
+            <Route path="/contact">
+              <Contact />
             </Route>
           </Switch>
         </Router>

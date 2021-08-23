@@ -40,12 +40,18 @@ code {
 }
 
 .custom-link:hover {
-  background: var(--main-blue);
+  /* background: var(--main-blue); */
+  text-decoration: underline;
   color: var(--text-color-2);
 }
 
 .custom-main {
   color: var(--text-color-1);
+  min-height: 100%;
+}
+
+.custom-container {
+  background: var(--main-color-2);
 }
 
 .card-link-text {

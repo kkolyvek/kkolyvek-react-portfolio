@@ -1,0 +1,47 @@
+.contact-link-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 3rem;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  width: fit-content;
+
+  margin-bottom: 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: inherit;
+
+  opacity: 0.9;
+  transform: scale(1.1);
+  transition: opacity 100ms, transform 100ms;
+}
+
+.contact-text {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.2em;
+}
+
+.icon {
+  margin-right: 0.5em;
+}
+
+/* RESPONSIVENESS */
+/* ============== */
+@media screen and (max-width: 991px) {
+  .contact-link-container {
+    padding-top: 0;
+    padding-left: 4em !important;
+  }
+}

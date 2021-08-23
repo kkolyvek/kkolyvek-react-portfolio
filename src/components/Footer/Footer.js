@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="custom-footer">
             <div style={{width: '80%'}}>
-                <div className="p-5 custom-footer-links-wrapper">
+                {/* <div className="p-5 custom-footer-links-wrapper">
                     <div className="custom-footer-links-col">
                         <a
                         href="https://github.com/kkolyvek"
@@ -30,7 +30,7 @@ function Footer() {
                             <img src={LinkedInLogo} alt="LinkedIn Logo" height="32"></img>
                         </a>
                     </div>
-                </div>
+                </div> */}
                 <div className="row p-5 custom-footer-text">
                     <p>Made with <a href="https://create-react-app.dev" target="_blank" rel="noreferrer">React</a>, <a href="https://react-bootstrap.github.io" target="_blank" rel="noreferrer">React-Bootstrap</a> and some experimentation. Check out the source code <a href="https://github.com/kkolyvek/kkolyvek-react-portfolio" target="_blank" rel="noreferrer">on GitHub</a>!</p>
                 </div>

@@ -2,6 +2,10 @@
 /* =        WORK STYLING       = */
 /* ============================= */
 
+.work-container {
+  padding: 3rem;
+}
+
 .custom-work {
   background: var(--main-color-2);
 }
@@ -53,6 +57,12 @@
 
 /* RESPONSIVENESS */
 /* ============== */
+@media screen and (max-width: 991px) {
+  .work-container {
+    padding-top: 0;
+  }
+}
+
 @media screen and (max-width: 762px) {
   .custom-card-body {
     flex-direction: column;

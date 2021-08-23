@@ -5,7 +5,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-
 // LOCAL IMPORTS
 import './Work.css';
 import '../ExpandButton/Expand.css';
@@ -112,7 +111,7 @@ function Work() {
                     <Col lg={3} className="p-5">
                         <h3>Work</h3>
                     </Col>
-                    <Col lg={9} className="p-5">
+                    <Col lg={9} className="work-container">
                         {WorkArray.map((project) => (
                             <WorkCard work={project} key={project.id} />
                         ))}

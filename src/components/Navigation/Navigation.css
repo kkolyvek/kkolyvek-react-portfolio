@@ -3,7 +3,9 @@
 /* ============================= */
 
 .custom-nav {
-  background-color: var(--main-color-1);
+  background: linear-gradient(0deg, #dedede, #96c8fa);
+  padding-top: 2em !important;
+  padding-bottom: 2em !important;
 }
 
 .custom-navbar-items {
@@ -12,10 +14,16 @@
 
 .custom-navlink-text {
   color: var(--text-color-2);
+  font-size: 1.2em;
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
   text-align: center;
+}
+
+.custom-navlink-text:hover {
+  transform: scale(1.2);
+  transition: transform 100ms;
 }

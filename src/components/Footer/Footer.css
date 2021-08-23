@@ -37,7 +37,7 @@
 }
 
 .custom-footer-text {
-  border-top: 2px solid var(--main-blue);
+  /* border-top: 2px solid var(--main-blue); */
   text-align: center;
 }
 
