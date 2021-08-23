@@ -1,13 +1,59 @@
+:root {
+  /* theme */
+  --header-gradient: linear-gradient(0deg, #96c8fa, #e8e8e8);
+  --main-blue: #96c8fa;
+  --darker-blue: #0c2d48;
+  --main-color-1: #e8e8e8;
+  --main-color-2: #dedede;
+  --main-color-3: #f8f8f8;
+
+  --text-color-1: #252525;
+  --text-color-2: #282828;
+
+  /* other values */
+  --work-image-width-small: 370px;
+  --work-image-height-small: 180px;
+  --work-image-width-large: 750px;
+  --work-image-height-large: 360px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+/* ********** */
+/* main style */
+/* ********** */
+
+.custom-link {
+  border-radius: 5px;
+}
+
+.custom-link:hover {
+  background: var(--main-blue);
+  color: var(--text-color-2);
+}
+
+.custom-main {
+  color: var(--text-color-1);
+}
+
+.card-link-text {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-link-text:hover {
+  /* Maybe change this to make hovering visibly a path out? */
+  color: inherit;
 }

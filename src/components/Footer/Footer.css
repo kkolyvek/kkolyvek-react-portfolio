@@ -1,0 +1,46 @@
+/* ============================= */
+/* =       FOOTER STYLING      = */
+/* ============================= */
+
+.custom-footer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  color: #e8e8e8;
+  background: #282828;
+}
+
+.custom-footer-links-wrapper {
+  text-align: center;
+}
+
+.custom-footer-links-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+.custom-link-width {
+  width: 100px;
+  text-align: left;
+}
+
+.custom-footer-text {
+  border-top: 2px solid var(--main-blue);
+  text-align: center;
+}
+
+.custom-footer-text a {
+  text-decoration: none;
+}

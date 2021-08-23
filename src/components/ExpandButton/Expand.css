@@ -1,0 +1,48 @@
+.expand-button {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+
+  border-radius: 0.5em;
+  border: none;
+  margin: 0.25em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.fa-chevron {
+  transform: rotate(0deg);
+  transition: transform 0.25s linear;
+}
+
+.fa-chevron.open {
+  transform: rotate(90deg);
+  transition: transform 0.25s linear;
+}
+
+.content-wrapper {
+  transition: height 300ms ease;
+}
+
+.dropdown-enter {
+  opacity: 0;
+  transform: translateY(-20%);
+}
+
+.dropdown-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.dropdown-exit {
+  opacity: 1;
+}
+
+.dropdown-exit-active {
+  opacity: 0;
+  transform: translateY(-20%);
+  transition: opacity 300ms, transform 300ms;
+}

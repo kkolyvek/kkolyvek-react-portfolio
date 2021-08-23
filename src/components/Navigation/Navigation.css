@@ -1,0 +1,21 @@
+/* ============================= */
+/* =       NAVBAR STYLING      = */
+/* ============================= */
+
+.custom-nav {
+  background-color: var(--main-color-1);
+}
+
+.custom-navbar-items {
+  margin: auto;
+}
+
+.custom-navlink-text {
+  color: var(--text-color-2);
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  text-align: center;
+}
