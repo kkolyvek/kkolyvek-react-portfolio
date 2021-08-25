@@ -3,23 +3,35 @@
 /* ============================= */
 
 .custom-footer {
-  display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-
   color: #e8e8e8;
-  background: #282828;
+  background: #121212;
   padding: 2rem;
 }
 
 .footer-text {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
-  text-align: center;
+}
+
+.footer-text p {
+  margin: auto;
 }
 
 .footer-text a {
-  text-decoration: none;
-  margin-left: 0.2em;
+  color: inherit;
+  text-decoration: underline;
+}
+
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+.footer-socials a {
+  color: inherit;
 }

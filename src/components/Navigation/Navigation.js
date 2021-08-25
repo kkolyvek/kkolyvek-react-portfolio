@@ -14,7 +14,7 @@ function Navigation() {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="custom-navbar-items">
                         <Nav.Link className="custom-navlink-text custom-link mx-4" href="/">About</Nav.Link>
-                        <Nav.Link className="custom-navlink-text custom-link mx-4" href="/work">Work</Nav.Link>
+                        <Nav.Link className="custom-navlink-text custom-link mx-4" href="/work">Projects</Nav.Link>
                         <Nav.Link className="custom-navlink-text custom-link mx-4" href="/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

@@ -10,6 +10,7 @@ import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // LOCAL IMPORTS
+import './WorkCard.css';
 import Expand from '../ExpandButton/Expand.js'
 
 export default function WorkCard({ work }) {

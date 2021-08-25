@@ -7,7 +7,6 @@ import Col from 'react-bootstrap/Col';
 
 // LOCAL IMPORTS
 import './Work.css';
-import '../ExpandButton/Expand.css';
 
 import WorkCard from '../WorkCard/WorkCard.js';
 import RecipesRefocused from './assets/recipes-refocused-feature.png';
@@ -107,11 +106,8 @@ function Work() {
     return (
         <Container fluid id="work" className="custom-work">
             <Container>
-                <Row>
-                    <Col lg={3} className="work-title p-5">
-                        <h3>Work</h3>
-                    </Col>
-                    <Col lg={9} className="work-container">
+                <Row style={{justifyContent: 'center'}}>
+                    <Col lg={8} className="work-container">
                         {WorkArray.map((project) => (
                             <WorkCard work={project} key={project.id} />
                         ))}
