@@ -2,7 +2,6 @@ import React from 'react';
 
 // BOOTSTRAP IMPORTS
 import Card from 'react-bootstrap/Card';
-import Badge from 'react-bootstrap/Badge';
 
 // FONTAWESOME IMPORTS
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -43,7 +42,7 @@ export default function WorkCard({ work }) {
                 {/* BADGES OF TECH USED */}
                 <div className="d-flex mb-1" style={{flexWrap: 'wrap'}}>
                     {work.badges.map((badge, index) => (
-                        <Badge className="rounded-pill bg-primary mx-1 my-1" key={index}>{badge}</Badge>
+                        <span className="rounded-pill mx-1 my-1 skills-badge" key={index}>{badge}</span>
                     ))}
                 </div>
                 {/* DROPDOWN CONTAINING ROLE DETAILS */}

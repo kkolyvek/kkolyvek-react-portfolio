@@ -1,8 +1,13 @@
 import React from 'react';
-import './Navigation.css';
+
+// BOOTSTRAP IMPORTS
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+
+// LOCAL IMPORTS
+import './Navigation.css';
+import Resume from '../Assets/pdf/kkolyvek-resume-07-2021.pdf';
 
 function Navigation() {
     return (
@@ -16,6 +21,14 @@ function Navigation() {
                         <Nav.Link className="custom-navlink-text custom-link mx-4" href="/">About</Nav.Link>
                         <Nav.Link className="custom-navlink-text custom-link mx-4" href="/work">Projects</Nav.Link>
                         <Nav.Link className="custom-navlink-text custom-link mx-4" href="/contact">Contact</Nav.Link>
+                        <Nav.Link 
+                            className="custom-navlink-text custom-link mx-4 custom-resume-button"
+                            href={Resume}
+                            target="_blank"
+                            rel="noopenner noreferrer"
+                        >
+                            Resume
+                        </Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

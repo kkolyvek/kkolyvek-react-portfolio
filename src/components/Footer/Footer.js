@@ -29,22 +29,29 @@ function Footer() {
                     <Col lg={4} >
                         <div className="footer-socials">
                             <a
-                            href="mailto:kk674@cornell.edu">
+                                href="mailto:kk674@cornell.edu">
                                 <FontAwesomeIcon icon={faInbox} size='1x' className="icon" />
                             </a>
                             <a
-                            href="https://github.com/kkolyvek">
+                                href="https://github.com/kkolyvek"
+                                target="_blank"
+                                rel="noopenner noreferrer"
+                            >
                                 <FontAwesomeIcon icon={faGithub} size='1x' className="icon" />
                             </a>
                             <a
-                            href="https://www.linkedin.com/in/koppi-kolyvek-221b0a14a/">
+                                href="https://www.linkedin.com/in/koppi-kolyvek-221b0a14a/"
+                                target="_blank"
+                                rel="noopenner noreferrer"
+                            >
                                 <FontAwesomeIcon icon={faLinkedinIn} size='1x' className="icon" />
                             </a>
                             <a
-                            href={Resume}
-                            target="_blank"
-                            rel="noopenner noreferrer"
-                            className="me-2">
+                                href={Resume}
+                                target="_blank"
+                                rel="noopenner noreferrer"
+                                className="me-2"
+                            >
                                 <FontAwesomeIcon icon={faFile} size='1x' className="icon" />
                             </a>
                         </div>

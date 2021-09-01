@@ -51,6 +51,22 @@
   justify-content: flex-end;
 }
 
+.skills-badge {
+  color: #f8f8f8;
+  background: #252525;
+
+  border-radius: 50rem;
+
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
 @media screen and (max-width: 762px) {
   .custom-card-body {
     flex-direction: column;

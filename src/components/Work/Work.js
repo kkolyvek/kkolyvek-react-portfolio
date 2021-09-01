@@ -103,11 +103,22 @@ const WorkArray = [
 ]
 
 function Work() {
+    // FUNCTIONS
+    // -----------------------
+    // const handleTagFilter = (e) => {
+    //     e.preventDefault();
+    //     console.log(e.target.children[0].value)
+    // }
+
     return (
         <Container fluid id="work" className="custom-work">
             <Container>
                 <Row style={{justifyContent: 'center'}}>
                     <Col lg={8} className="work-container">
+                        {/* WORK IN PROGRESS - FILTER BY TAG */}
+                        {/* <form onSubmit={handleTagFilter}>
+                            <input className="tag-search-input" placeholder="Filter by tag..." />
+                        </form> */}
                         {WorkArray.map((project) => (
                             <WorkCard work={project} key={project.id} />
                         ))}
